@@ -7,3 +7,8 @@ import numpy as np
 import spacy
 import random
 from torch.utils.tensorboard import SummaryWriter 
+
+
+names = ['Oguzhan', 'Enes', 'Selim']
+for index, isim in enumerate(isimler, start=1): % without start=1 it will start with 0.
+  print(index, isim)
